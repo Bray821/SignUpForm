@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sign-up-form {
+            background:red;
+            
+            display:flex;
+            flex-flow:row;
+            justify-content: center;
+        }
+
+        form {
+            background:blue;
+            padding:150px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class = "sign-up-form">
+        
+        <form>
+        <label id = "sign-up"for = "sign-up" tabindex="1">Sign Up</label><br><br>
+        <label id = "username-label"for = "username" tabindex="2"></label>
+        <input id = "username-box" type ="text"  name = "Username" tabindex="3"><br><br>
+        <label id = "email-label" for = "email" tabindex = "4">E-Mail</label><br><br>
+        <input id = "email-box" type= "text" name = "Password" tabindex="5"><br><br>            
+        <label id = "password-label" for= "password" tabindex="6">Password</label><br><br>    
+        <input id = "password-box" type = "password" name = "Password" tabindex="7"><br><br>
+        <input id = "sign-up-button" type = "submit" name = "SignUp" tabindex="8"> <br><br>
+
+
+        </form>
+        
+    </div>
+</body>
+</html>
